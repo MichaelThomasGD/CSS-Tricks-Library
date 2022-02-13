@@ -1,3 +1,5 @@
+/* A cool css effect that reveals a background spanning from left to right onhover and disappearing left to right offhover */
+
 .hover-animation h2 {
 	width: max-content;
 	margin: auto;

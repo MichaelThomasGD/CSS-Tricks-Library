@@ -1,0 +1,27 @@
+.animate-btn {
+	background-color: #6dd5ed;
+	border: none;
+	height: 100px;
+	width: 100px;
+	font-size: 40px;
+	transition: transform 300ms, background-color 300ms;
+	animation: pulse 500ms;
+	border-radius: 100px;
+	color: #fff;
+}
+.animate-btn:hover {
+	transform: scale(1.2);
+	background-color: #6dd5ed;
+}
+.animate-btn:active {
+	transform: scale(0.9);
+	animation: none;
+}
+@keyframes pulse {
+	from {
+		box-shadow: #6dd5ed 0 0 0;
+	}
+	to {
+		box-shadow: #6dd5ed00 0 0 0 12px;
+	}
+}

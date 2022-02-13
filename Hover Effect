@@ -1,0 +1,17 @@
+.hover-animation h2 {
+	width: max-content;
+	margin: auto;
+	color: #0002;
+	padding: 10px 20px;
+	border-radius: 50px;
+	background-image: linear-gradient(#6dd5ed, #9dd5ed);
+	background-repeat: no-repeat;
+	background-size: 0% 100%;
+	background-position-x: right;
+	transition: color 600ms, background-size 500ms;
+}
+.hover-animation h2:hover {
+	color: #fff;
+	background-size: 100% 100%;
+	background-position-x: left; 
+}
